@@ -1,18 +1,13 @@
-<div class="d-flex justify-content-center">
-
-        <label class="">Journeaux
-            <input type="radio" name="menu" id="">
+<div class="d-flex justify-content-center page-menu">
+        <label class=""><a href="index.php?page=home&section=journeaux">Journeaux</a>
+            <input type="radio" name="menu" id="" <?php if(isset($_GET['section'])){if($_GET['section'] == 'journeaux'){echo "checked";}} ?>>
         </label>
-        <label class="">Actualités
-            <input type="radio" name="menu" id="" checked>
+        <label class=""><a href="index.php?page=home&section=actualites">Actualités</a>
+            <input type="radio" name="menu" id="" <?php if(isset($_GET['section'])){if($_GET['section'] == 'actualites'){echo "checked";}}else{echo"checked";}?>>
         </label>
-        <label class="">Vidéos
-            <input type="radio" name="menu" id="">
+        <label class=""><a href="index.php?page=home&section=videos">Vidéos</a>
+            <input type="radio" name="menu" id="" <?php if(isset($_GET['section'])){if($_GET['section'] == 'videos'){echo "checked";}}?>>
         </label>
-
-    <a href="index.php?page=home&section=journeaux">Journeaux</a>
-    <a href="index.php?page=home&section=actualites">Actualités</a>
-    <a href="index.php?page=home&section=videos">Vidéos</a>
 </div>
 <?php
 if(isset($_GET['section'])){
