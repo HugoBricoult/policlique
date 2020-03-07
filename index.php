@@ -5,7 +5,6 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
         <!-- Bootstrap CSS -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -16,13 +15,19 @@
     <body>
     <?php 
         include 'header.php';
-        $pages = array('home');
+        $pages = scandir('./pages');
+        // echo "<pre>";
+        // var_dump ($pages);
+        // echo "</pre>";
         if(isset($_GET['page'])){
-            if(in_array($_GET['page'],$pages)){
+            if(in_array($_GET['page'].'.php',$pages)){
                 include('./pages/'.$_GET['page'].'.php');
             }else{
                 include('./pages/404.php');
             }
+        }else{
+            include('./pages/home.php');
+            
         }
     ?>
         <!-- Optional JavaScript -->
