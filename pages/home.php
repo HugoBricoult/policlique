@@ -18,9 +18,10 @@
             </div>
 </div>
 <?php
-if(isset($_GET['section'])){
-    include('./pages/'.$_GET['section'].'.php');
+ $content = scandir('./pages/home');
+if(isset($_GET['section']) && in_array($_GET['section'] . '.php',$content)){
+    include('./pages/'. $_GET['page'] . '/' .$_GET['section'].'.php');
 }else{
-    include('./pages/actualites.php');
+    include('./pages/home/actualites.php');
 }
 ?>
