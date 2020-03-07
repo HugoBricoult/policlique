@@ -19,9 +19,6 @@
 </div>
 <?php
  $content = scandir('./pages/home');
- echo "<pre>";
- var_dump($content);
- echo "</pre>";
 if(isset($_GET['section']) && in_array($_GET['section'] . '.php',$content)){
     include('./pages/'. $_GET['page'] . '/' .$_GET['section'].'.php');
 }else{
