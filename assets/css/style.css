@@ -1,0 +1,68 @@
+/*Navigation*/
+nav .nav-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 0px;
+}
+
+nav .nav-mobile li {
+  list-style-type: none;
+}
+
+nav .nav-mobile li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .nav-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 0px;
+  background-color: #caeeff;
+}
+
+nav .nav-desktop div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+nav .nav-desktop li {
+  list-style-type: none;
+}
+
+nav .nav-desktop li a {
+  text-decoration: none;
+  color: #0072cf;
+}
+
+/*Media queries*/
+/*# sourceMappingURL=style.css.map */
