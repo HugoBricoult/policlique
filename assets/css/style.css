@@ -80,4 +80,45 @@ nav .nav-desktop li a {
   text-decoration: none;
   color: #0072cf;
 }
+
+.sendmmenu h1 {
+  text-align: center;
+  width: 100%;
+  border-bottom: 2px solid #0072cf;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.sendmmenu textarea {
+  width: 100%;
+  border: 1px solid gray;
+  margin-bottom: 30px;
+}
+
+.sendmmenu .btnsend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sendmmenu .btnsend button {
+  margin-right: 20px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sendmmenu .target {
+  display: block;
+  border-left: 2px solid #0072cf;
+  padding-left: 30px;
+  margin-top: 30px;
+}
 /*# sourceMappingURL=style.css.map */

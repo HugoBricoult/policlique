@@ -62,5 +62,38 @@ nav{
         }
     }
 }
+.sendmmenu{
+    h1{
+        text-align: center;
+        width: 100%;
+        border-bottom: 2px solid $base-color;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+    }
+    textarea{
+        width: 100%;
+        border: 1px solid gray;
+        margin-bottom: 30px;
+    }
+    .btnsend{
+        display: flex;
+        flex-direction: row;
+        button{
+            margin-right: 20px;
+            border: 1px solid black;
+            background-color: white;
+            color: $icon-color;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    .target{
+        display: block;
+        border-left: 2px solid $base-color;
+        padding-left: 30px;
+        margin-top: 30px;
+    }
+}
 
 
