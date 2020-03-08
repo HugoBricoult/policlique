@@ -80,14 +80,4 @@ nav .nav-desktop li a {
   text-decoration: none;
   color: #0072cf;
 }
-
-.btnsend {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
 /*# sourceMappingURL=style.css.map */

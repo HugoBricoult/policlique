@@ -12,7 +12,6 @@ const aiAnalyze = async(stat) => {
         method : "POST",
         body: data
     }).then(rs => rs.json()).then(val=>{
-        console.log(val);
         let concepts = val.concepts;
         let categories = val.categories;
         let concept = "";
