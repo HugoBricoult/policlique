@@ -16,19 +16,10 @@
     <?php 
         include 'header.php';
         $pages = scandir('./pages');
-        // echo "<pre>";
-        // var_dump ($pages);
-        // echo "</pre>";
-        if(isset($_GET['page'])){
-            if(in_array($_GET['page'].'.php',$pages)){
-                include('./pages/'.$_GET['page'].'.php');
-            }else{
-                include('./pages/404.php');
-            }
-        }else{
-            include('./pages/home.php');
-            
-        }
+        echo "<pre>";
+        var_dump ($pages);
+        echo "</pre>";
+    
     ?>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

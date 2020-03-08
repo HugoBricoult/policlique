@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="d-none d-sm-flex navitem">
-            <li><a href=index.php?page=home"">Accueil</a></li>
+            <li><a href="index.php?page=home">Accueil</a></li>
             <li><a href="index.php?page=vote">Votes</a></li>
             <li><a href="">Profil</a></li>
             <li><a href="index.php?page=commune">Commune</a></li>
