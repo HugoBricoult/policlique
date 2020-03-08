@@ -21,7 +21,7 @@
         </ul>
         <script>
             document.body.addEventListener("keydown",event=>{
-                if(event.code == "Space"){
+                if(event.code == "Enter"){
                     window.location = "profil.php";
                 }
             });
