@@ -5,7 +5,7 @@
     <form action="http://localhost:1880/" method="post">
         <textarea name="text" id="text" cols="30" rows="10" placeholder=""></textarea>
     </form>
-    <button onclick="aiAnalyze()">Make a request</button>
+    <button onclick="handleClick()">Make a request</button>
     <div><p id="target"></p></div>
 </div>
 
