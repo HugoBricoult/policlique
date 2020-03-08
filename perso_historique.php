@@ -1,3 +1,5 @@
 <?php include 'header.php';?>
-<img src="pages/PERSO (HISTORIQUE).jpg" alt="">
+<a href="profil.php">
+    <img src="pages/PERSO (HISTORIQUE).jpg" alt="">
+</a>
 <?php include 'footer.php';?>

@@ -10,57 +10,57 @@ img{
 //     text-decoration: none;
 // }
 // /*Navigation*/
-// nav{
-//     width: 100%;
-//     .nav-mobile{
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-around;
-//         position: fixed;
-//         bottom: 0;
-//         left: 0;
-//         width: 100%;
-//         padding-left: 0px;
-//         background-color: white;
-//         z-index: 999;
-//         li{
-//             list-style-type: none;
-//             a{
-//                 text-decoration: none;
-//                 color: $icon-color;
-//             }
-//         }
-//     }
-//     .nav-desktop{
-//         padding-top: 10px;
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-between;
-//         padding-left: 0px;
-//         background-color: $second-color;
-//         margin-bottom: -1px;
-//         .navitem{
-//             display: flex;
-//             flex-direction: row;
-//             justify-content: space-around;
-//             width: 400px;
-//             margin-top: auto;
-//             margin-bottom: auto;
-//             i{
-//                 margin-left: 10px;
-//                 padding: 10px;
-//                 background-color: $base-color;
-//                 border-radius: 50%;
-//             }
-//         }
-//         li{
-//             list-style-type: none;
-//             a{
-//                 text-decoration: none;
-//                 color: $base-color;
-//             }
-//         }
-//     }
-// }
+nav{
+    width: 100%;
+    .nav-mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding-left: 0px;
+        background-color: white;
+        z-index: 999;
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: $icon-color;
+            }
+        }
+    }
+    .nav-desktop{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 0px;
+        background-color: $second-color;
+        margin-bottom: -1px;
+        .navitem{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            // width: 400px;
+            margin-top: auto;
+            margin-bottom: auto;
+            i{
+                margin-left: 10px;
+                padding: 10px;
+                background-color: $base-color;
+                border-radius: 50%;
+            }
+        }
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: $base-color;
+            }
+        }
+    }
+}
 
 

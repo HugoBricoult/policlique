@@ -1,3 +1,5 @@
 <?php include 'header.php';?>
-<img src="./pages/PROPOSITION.jpg" alt="">
+<a href="nodeRed_Req.php">
+    <img src="./pages/PROPOSITION.jpg" alt="">
+</a>
 <?php include 'footer.php';?>

@@ -1,3 +1,5 @@
 <?php include 'header.php';?>
-<img src="pages/CARTE (POP-UP).jpg" alt="">
+<a href="perso_mes_projets.php">
+    <img src="pages/CARTE (CHALEUR).jpg" alt="">
+</a>
 <?php include 'footer.php';?>

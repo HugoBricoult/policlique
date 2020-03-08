@@ -1,3 +1,5 @@
 <?php include 'header.php';?>
-<img src="pages/PAGE - PROFIL.jpg" alt="">
+<a href="proposition.php">
+    <img src="pages/PAGE - PROFIL.jpg" alt="">
+</a>
 <?php include 'footer.php';?>

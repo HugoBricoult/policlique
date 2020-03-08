@@ -1,3 +1,82 @@
 img {
   width: 100%;
 }
+
+nav {
+  width: 100%;
+}
+
+nav .nav-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 0px;
+  background-color: white;
+  z-index: 999;
+}
+
+nav .nav-mobile li {
+  list-style-type: none;
+}
+
+nav .nav-mobile li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .nav-desktop {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 0px;
+  background-color: #93e3f9;
+  margin-bottom: -1px;
+}
+
+nav .nav-desktop .navitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+nav .nav-desktop .navitem i {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #0072cf;
+  border-radius: 50%;
+}
+
+nav .nav-desktop li {
+  list-style-type: none;
+}
+
+nav .nav-desktop li a {
+  text-decoration: none;
+  color: #0072cf;
+}
