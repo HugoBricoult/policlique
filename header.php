@@ -15,9 +15,9 @@
     <body>
     <nav>
         <ul class="nav-mobile d-flex d-sm-none mb-0 py-3">
-            <li><a href="index.php?page=home"><i class="material-icons">home</i></a></li>
-            <li><a href="index.php?page=vote"><i class="material-icons">how_to_vote</i></a></li>
-            <li><a href=""><i class="material-icons">person</i></a></li>
-            <li><a href="index.php?page=commune"><i class="material-icons">location_city</i></a></li>
+            <li><a href="index.php"><i class="material-icons">home</i></a></li>
+            <li><a href="carte_popup.php"><i class="material-icons">how_to_vote</i></a></li>
+            <li><a href="profil.php"><i class="material-icons">person</i></a></li>
+            <li><a href="nodeRed_Req.php"><i class="material-icons">location_city</i></a></li>
         </ul>
     </nav>
